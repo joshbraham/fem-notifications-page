@@ -15,7 +15,6 @@
 
 body {
 	background-color: var(--clr-neutral-200);
-	/* Weights: 500, 800 */
 	font-family: "Plus Jakarta Sans", sans-serif;
 	color: var(--clr-neutral-700);
 }
@@ -39,14 +38,14 @@ main {
 	gap: 0.5rem;
 }
 
-header,
+.heading,
 .notification {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 }
 
-header {
+.heading {
 	flex-wrap: wrap;
 	padding-bottom: 1rem;
 }
@@ -107,9 +106,6 @@ header {
 
 .unread .notification__text::after {
 	content: "";
-	/* position: absolute; */
-	/* top: 50%; */
-	/* right: -15px; */
 	translate: 0 -1px;
 	display: inline-block;
 	margin-left: 0.25rem;
@@ -125,19 +121,20 @@ header {
 	font-weight: 800;
 }
 
-.notification__post-title:visited,
-.notification__group-name:visited {
-	color: currentColor;
-}
-
 .notification__name,
 .notification__name:visited {
 	color: var(--clr-neutral-900);
 }
 
+.notification__post-title,
+.notification__post-title:visited {
+	color: var(--clr-neutral-700);
+}
+
+.notification__group-name,
+.notification__group-name:visited,
 .notification__name:hover,
-.notification__post-title:hover,
-.notification__group-name:hover {
+.notification__post-title:hover {
 	color: var(--clr-primary);
 }
 
