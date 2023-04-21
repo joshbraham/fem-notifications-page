@@ -2,7 +2,7 @@
 
 This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
-### **[Live Site Link]()**
+### **[Live Site Link](https://jbhm-notifications-page.netlify.app/)**
 
 ---
 
